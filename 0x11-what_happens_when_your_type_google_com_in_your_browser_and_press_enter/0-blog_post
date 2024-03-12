@@ -1,0 +1,25 @@
+Have you ever wondered about the intricate dance of technologies that takes place when you type "https://www.google.com" into your browser and press Enter? Let's embark on a journey through the layers of the web to unveil the magic behind this seemingly simple action.
+
+DNS Request:
+The journey begins with a Domain Name System (DNS) request. Your browser needs to translate the human-readable "www.google.com" into an IP address that servers can understand. It sends a query to a DNS server, which responds with the corresponding IP address, allowing your browser to connect to the correct server.
+
+TCP/IP:
+With the IP address in hand, your browser initiates a Transmission Control Protocol (TCP) connection. TCP ensures reliable data transfer by breaking information into packets and guaranteeing their orderly delivery. Internet Protocol (IP) then handles the addressing and routing of these packets across the network.
+
+Firewall:
+The data packets traverse through firewalls, which act as gatekeepers. Firewalls scrutinize the incoming and outgoing traffic, ensuring it complies with security rules. If the request passes these checks, it proceeds to the next stage.
+
+HTTPS/SSL:
+Security becomes paramount as your browser establishes a secure connection through HTTPS (Hypertext Transfer Protocol Secure). This is facilitated by SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security), encrypting the data exchanged between your browser and the server. This encryption ensures the confidentiality and integrity of the transmitted information.
+
+Load-Balancer:
+Large-scale websites like Google often employ load balancers to distribute incoming traffic across multiple servers. Load balancing ensures optimal resource utilization, prevents server overload, and enhances the website's reliability and responsiveness.
+
+Web Server:
+The request reaches Google's web servers. These servers handle HTTP requests, process them, and generate responses. They may host static content or forward dynamic requests to application servers.
+
+Application Server:
+In cases where dynamic content is involved, application servers come into play. They execute server-side scripts, interact with databases, and generate dynamic content tailored to the user's request.
+
+Database:
+For many web applications, information retrieval involves database queries. Application servers interact with databases to fetch, update, or manipulate data before sending it back to the user's browser.
